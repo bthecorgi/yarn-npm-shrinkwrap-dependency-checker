@@ -3,6 +3,7 @@ Checks the dependency listed in npm-shrinkwrap.json with what `yarn install` ins
 level of dependencies.
 
 Install
+
     npm i yarn-npm-shrinkwrap-dependency-checker
 
 Run the following in your repo with a npm-shrinkwrap.json
