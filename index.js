@@ -8,15 +8,6 @@ const exec = require('child_process').exec;
 
 function parseYarnListOutput(stdout) {
   const output = stdout.split('\n');
-
-  if (output.length < 896) {
-    console.log(stdout);
-    const react = stdout.indexOf('react@');
-    console.log('react: ', stdout.substring(react, react + 20));
-
-    console.log('Found: ', output.length);
-  }
-
   const parsedOutput = {};
 
   output.forEach((line) => {
