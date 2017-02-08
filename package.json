@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "yarn-npm-shrinkwrap-dependency-checker": "index.js"
+    "yarn-npm-shrinkwrap-dependency-checker": "./index.js"
   },
   "repository": {
     "type": "git",

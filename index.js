@@ -1,4 +1,4 @@
- #!/usr/bin/env node
+#!/usr/bin/env node
 
 /**
 * Usage: npm start -s <PATH_TO_SHRINKWRAP> -y <PATH_TO_YARN_LOCK>
